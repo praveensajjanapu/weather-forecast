@@ -1,0 +1,165 @@
+body {
+    background-color: #1a1583;
+    color: rgb(36, 1, 1);
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+.container {
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    color: rgb(243, 244, 237);
+    min-height: 100vh;  /* Set a minimum height to cover the entire viewport */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container a{
+    background-color: #282272;
+    padding: 5px 8px;
+    text-decoration: none;
+    color: rgb(225, 213, 213);
+    display: inline-block;
+    
+    border-radius: 8px;
+}
+.container a:hover{
+    color:rgb(71, 209, 37)
+}
+.container a{
+    font-size: 20px;
+    color: orange;
+    margin-top: 10px;
+}
+
+
+
+header h1 {
+    font-size: 4em;
+    margin: 0.5em 0;
+    color: rgb(219, 238, 7);
+}
+
+header p {
+    margin: 0.25em 0;
+    font-size: 1.5em;
+}
+
+header a {
+    border-radius: 50px;
+}
+
+header p span {
+    font-weight: bold;
+}
+
+#location-form {
+    margin-top: 2em;
+}
+
+#location-form label,
+#location-form select,
+#location-form button {
+    font-size: 1em;
+    margin: 0.25em;
+}
+
+#location-form button {
+    padding: 0.5em 1em;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+#location-form button:hover {
+    background-color: #0056b3;
+}
+
+#weatherResults {
+    text-align: center;
+}
+
+.forecast-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.weather-day {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.footer {
+    /* Add any styles for the footer if needed */
+}
+.weather-day {
+    box-sizing: border-box; /* Include padding and border in the total width */
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: calc(14.2857% - 20px); /* Calculate the width to fit seven columns with margins */
+    max-width: 200px; /* Set a maximum width to prevent columns from becoming too narrow */
+    box-sizing: border-box;
+    overflow: hidden; /* Add overflow: hidden to prevent layout issues */
+    background-color: #201658; /* Adjust the color as needed */
+    border-radius: 20px; /* Add rounded corners for a nice appearance */
+}
+
+.weather-day h3 {
+    color: orange; /* Date color */
+}
+
+.weather-day img {
+    max-width: 100px; /* Adjust the max-width of the icon image as needed */
+}
+
+.weather-day p {
+    color: rgb(202, 235, 15); /* Condition color */
+}
+
+.weather-day p span {
+    color: rgb(246, 246, 9); /* Max and Min temperature color */
+}
+#loadingIndicator {
+    font-size: 18px;
+    color: #b62626;
+    margin-top: 10px;
+}
+#locationName{
+    font-size: 20px;
+    color: orange;
+    margin-top: 10px;
+
+}
+
+
+
+
+#location-form button {
+    padding: 0.5em 1em;
+    background-color: #007bff;
+    border: none;
+    border-radius: 10px; /* Add border radius here */
+    color: white;
+    cursor: pointer;
+}
+
+#location-form button:hover {
+    background-color: #0056b3;
+}
